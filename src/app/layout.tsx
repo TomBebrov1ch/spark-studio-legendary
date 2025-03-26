@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Nunito, Montserrat } from "next/font/google";
 import Providers from "@/shared/ui/ThemeProvider/ThemeProvider";
 import { Header } from "@/features/navigation/ui/header";
-import SplashCursor from "@/shared/ui/SplashCursor/SplashCursor";
+// import SplashCursor from "@/shared/ui/SplashCursor/SplashCursor";
 
 import "./globals.css";
 
@@ -39,7 +39,7 @@ export default function RootLayout({
           </div>
           <main>{children}</main>
         </Providers>
-        <SplashCursor />
+        {/* <SplashCursor /> */}
       </body>
     </html>
   );

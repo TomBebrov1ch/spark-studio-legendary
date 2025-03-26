@@ -2,7 +2,7 @@
 import React from "react";
 import { AuroraBackground } from "@/components/ui/aurora-background";
 import { motion } from "framer-motion";
-import { LinkButton } from "@/shared/ui/Buttons/link-button";
+import { LinkButton } from "@/shared/ui/Buttons/LinkButton/link-button";
 
 export const HeroSection = () => {
   return (

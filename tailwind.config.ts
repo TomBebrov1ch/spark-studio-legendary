@@ -20,8 +20,8 @@ export default {
         montserrat: "var(--font-montserrat), sans-serif",
       },
       maxWidth: {
-        "8xl": "90rem", // 1440px
-        "9xl": "99rem", // 1600px
+        "8xl": "90rem",
+        "9xl": "99rem",
       },
       colors: {
         background: "var(--background)",
