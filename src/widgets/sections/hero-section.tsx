@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { AuroraBackground } from "@/components/ui/aurora-background";
+import { AuroraBackground } from "@/components/ui/aurora-background/aurora-background";
 import { motion } from "framer-motion";
 import { LinkButton } from "@/shared/ui/Buttons/LinkButton/link-button";
 

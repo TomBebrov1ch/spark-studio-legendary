@@ -5,8 +5,8 @@ import SparkLogo from "../../../../public/assets/hero-section/spark_logo.svg";
 
 export const Header = () => {
   return (
-    <header className="w-screen px-[2vw] py-[1vh] max-w-[1920px] mx-auto mt-[1vw] fixed bg-inherit z-50">
-      <nav className="flex items-center justify-between">
+    <header className="fixed top-0 left-0 w-full z-50">
+      <nav className="max-w-[100vw] mx-auto flex items-center justify-between py-[2vh] px-[2vw]">
         <div className="w-[8vw] min-w-[80px]">
           <Image src={SparkLogo} alt="Spark-logo" className="w-full h-auto" />
         </div>

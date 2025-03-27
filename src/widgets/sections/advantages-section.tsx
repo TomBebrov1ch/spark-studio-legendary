@@ -1,5 +1,5 @@
-import { AdvantagesBlocks } from "@/components/ui/advantages-blocks";
-import { advantagesData } from "@/components/lib/content/advantages-data";
+// import { AdvantagesBlocks } from "@/components/ui/advantages-block/advantages-blocks";
+// import { advantagesData } from "@/components/lib/content/advantages-data";
 
 export const AdvantagesSection = () => {
   return (
@@ -7,7 +7,7 @@ export const AdvantagesSection = () => {
       <h2 className="text-[4.6vw] min-text-[32px] font-extrabold dark:text-white text-center">
         Наши приемущества
       </h2>
-      <AdvantagesBlocks items={advantagesData} />
+      {/* <AdvantagesBlocks items={advantagesData} /> */}
     </div>
   );
 };
