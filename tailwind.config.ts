@@ -15,6 +15,9 @@ export default {
   ],
   theme: {
     extend: {
+      translate: {
+        "101": "101%",
+      },
       fontFamily: {
         nunito: "var(--font-nunito), sans-serif",
         montserrat: "var(--font-montserrat), sans-serif",
@@ -31,6 +34,7 @@ export default {
       },
       animation: {
         aurora: "aurora 60s linear infinite",
+        marquee: "marquee 15s linear infinite",
       },
       keyframes: {
         aurora: {
@@ -40,6 +44,10 @@ export default {
           to: {
             backgroundPosition: "350% 50%, 350% 50%",
           },
+        },
+        marquee: {
+          "0%": { transform: "translateX(0%)" },
+          "100%": { transform: "translateX(-50%)" },
         },
       },
     },

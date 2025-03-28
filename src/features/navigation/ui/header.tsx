@@ -1,7 +1,8 @@
 import React from "react";
-import { links } from "../model/header-links";
+// import { links } from "../model/header-links";
 import Image from "next/image";
 import SparkLogo from "../../../../public/assets/hero-section/spark_logo.svg";
+import { BurgerMenu } from "./burger-button";
 
 export const Header = () => {
   return (
@@ -11,21 +12,7 @@ export const Header = () => {
           <Image src={SparkLogo} alt="Spark-logo" className="w-full h-auto" />
         </div>
 
-        {links.map((link, index) => (
-          <a
-            href={link.href}
-            key={index}
-            className="cursor-pointer text-[1.2vw] min-text-[16px] hover:text-gray-500 transition-all duration-300"
-          >
-            {link.name}
-          </a>
-        ))}
-        <a
-          className="cursor-pointer text-[1.2vw] min-text-[16px] hover:text-custom-orange transition-all duration-300"
-          href=""
-        >
-          Получить консультацию
-        </a>
+        <BurgerMenu />
       </nav>
     </header>
   );
